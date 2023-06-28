@@ -38,6 +38,7 @@ const reducer = (state, action) => {
 export const DiaryStateContext = React.createContext();
 export const DiaryDispatchContext = React.createContext();
 
+// App
 function App() {
 
     // console.log(new Date().getTime());

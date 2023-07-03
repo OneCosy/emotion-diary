@@ -48,6 +48,7 @@ const DiaryList = ({ diaryList }) => {
                 return parseInt(a.date) - parseInt(b.date);
             }
         };
+        
         const copyList = JSON.parse(JSON.stringify(diaryList));
 
         const filteredList = filter === "all" ? copyList : copyList.filter((it) => filterCallBack(it));

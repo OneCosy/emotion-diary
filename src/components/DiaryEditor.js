@@ -12,8 +12,6 @@ import { emotionList } from "../util/emotion.js";
 const env = process.env;
 env.PUBLIC_URL = env.PUBLIC_URL || "";
 
-
-
 const DiaryEditor = ({isEdit, originData}) => {
     const contentRef = useRef();
     const [content, setContent] = useState("");
